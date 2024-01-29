@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Título da página -->
+  <h1 id="title">Pesquisa de Satisfação</h1>
+
+  <!-- Descrição breve -->
+  <p id="description">Ajude-nos a melhorar, preenchendo esta pesquisa rápida.</p>
+
+  <!-- Formulário de pesquisa -->
+  <form id="survey-form">
+
+    <!-- Nome -->
+    <label for="name" id="name-label">Nome:</label>
+    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+    <!-- E-mail -->
+    <label for="email" id="email-label">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+    <!-- Número -->
+    <label for="number" id="number-label">Número:</label>
+    <input type="number" id="number" name="number" placeholder="Digite um número" min="1" max="100" required>
+
+    <!-- Menu suspenso (Dropdown) -->
+    <label for="dropdown">Escolha uma opção:</label>
+    <select id="dropdown">
+      <option value="opcao1">Opção 1</option>
+      <option value="opcao2">Opção 2</option>
+    </select>
+
+    <!-- Botões de opção (Radio) -->
+    <label>Escolha uma opção:</label>
+    <input type="radio" id="opcao1" name="opcao" value="opcao1">
+    <label for="opcao1">Opção 1</label>
+    <input type="radio" id="opcao2" name="opcao" value="opcao2">
+    <label for="opcao2">Opção 2</label>
+
+    <!-- Caixas de seleção (Checkbox) -->
+    <label>Selecione as opções desejadas:</label>
+    <input type="checkbox" id="checkbox1" name="checkbox" value="opcao1">
+    <label for="checkbox1">Opção 1</label>
+    <input type="checkbox" id="checkbox2" name="checkbox" value="opcao2">
+    <label for="checkbox2">Opção 2</label>
+
+    <!-- Textarea para comentários -->
+    <label for="comments">Comentários adicionais:</label>
+    <textarea id="comments" name="comments" rows="4" placeholder="Digite seus comentários"></textarea>
+
+    <!-- Botão de envio -->
+    <button type="submit" id="submit">Enviar</button>
+  </form>
+</body>
+</html>
