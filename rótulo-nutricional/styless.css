@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
   }
-html {
+  
+  html {
     font-size: 16px;
   }
   
@@ -12,17 +13,14 @@ html {
   .label {
     border: 2px solid black;
     width: 270px;
-    html {
-        font-size: 16px;
-      }
-      
-      body {
-        font-family: 'Open Sans', sans-serif;
-      }
-      
-      .label {
-        border: 2px solid black;
-        margin: 20px auto;
-        padding: 0 7px
-      }
+    margin: 20px auto;
+    padding: 0 7px;
   }
+  
+  h1 {
+    font-weight: 800;
+    text-align: center;
+    margin: -4px 0;
+  }
+  
+  
