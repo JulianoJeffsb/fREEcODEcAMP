@@ -10,3 +10,10 @@ const totalNumberOfItems = document.getElementById('total-items');
 const cartSubTotal = document.getElementById('subtotal');
 const cartTaxes = document.getElementById('taxes');
 const cartTotal = document.getElementById('total');
+// Obtendo o elemento #show-hide-cart do DOM
+const showHideCartSpan = document.getElementById('show-hide-cart');
+
+// Declarando a variável isCartShowing e definindo-a como false
+let isCartShowing = false;
+// Declarando a variável products e definindo-a como um array vazio
+const products = [];
